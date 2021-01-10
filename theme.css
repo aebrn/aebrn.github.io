@@ -1,51 +1,30 @@
 html {
-    background: rgb(255,101,101);
-    background: radial-gradient(circle, rgba(255,101,101,1) 100%, rgba(255,0,0,1) 100%);
+    background: linear-gradient(to bottom right, rgb(255, 0, 80), rgb(255, 100, 80));
     text-align: center;
 }
 
-body {
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
-    color: #545454;
-    font-family: "Arial", Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.9;
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 2em 2em 4em;
+h1 {
+    margin-block: 64px;
+    font-family: Verdana, serif;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: gray;
+    text-shadow: 10px 10px 5px rgba(0, 0, 0, .3);
 }
 
-a:link, a:visited {
-  background-color: #f44336;
-  color: #545454;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+button {
+    margin-block: 10px;
+    font-family: Verdana, serif;
+    background: linear-gradient(to bottom right, rgb(255, 100, 80), rgb(255, 0, 80));
+    color: white;
+    font-size: 1rem;
+    display: inline-block;
+    padding: 24px 100px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, .3);
 }
 
-a:hover, a:active {
-  background-color: red;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    color: #545454;
-    font-weight: 100;
-    line-height: 1.1;
-}
-
-h2 {
-    margin-top: 1.0em;
-}
-
-a {
-    color: #0083e8;
-}
-
-b, strong {
-    font-weight: 600;
-}
-
-samp {
-    display: none;
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, .3);
 }
